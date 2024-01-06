@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Sk-Modernist";
+  src: url("fonts/Sk-Modernist-Regular.otf");
+}
+
+h1 {
+  font-family: "Sk-Modernist";
+  font-size: 48px;
+  font-weight: 700;
+  align-self: center;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  padding: 5vh 20vw;
+}
+
+.sec_buttons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 25vh; /* Adjust the height as needed */
+}
+
+body {
+  margin: 0;
+  background: #202731;
+  color: white;
+}
+
+.subtext {
+  font-family: "Sk-Modernist";
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1vh; /* Adjust the padding as needed */
+  color: black;
+}
+
+.blue {
+  background-color: #fcf7ee;
+}
+
+.dark {
+  background-color: #202731;
+}
